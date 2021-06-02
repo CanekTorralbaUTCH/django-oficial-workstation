@@ -1,0 +1,7 @@
+.NavHeader{
+    height: 60px;
+    box-shadow: 0 4px 2px -2px gray;
+}
+.NavHeader__logo{
+    height: 25px;
+}

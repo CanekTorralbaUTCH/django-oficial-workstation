@@ -1,0 +1,27 @@
+{%{% extends '../base.html' %}%}
+{% block head_content%}
+    <title>
+    Login
+    </title>
+{%endblock head_content%}
+{%load static%}
+
+{% block container %}
+<div class="container p-5 mt-3 LoginForm__container">
+    <div class="LoginForm__img">
+        <img src="{%  %}" alt="">
+    </div>
+    <form method="POST" action="">
+        {% csrf_token %}
+        <div class="form-group">
+            <label class="mb-1">User Name</label>
+            <input type="text"
+            class="form-control"
+            name="username"
+            placeholder="User Name">
+            </input>
+        </div>
+    </form>
+</div>
+
+{% endblock container %}
