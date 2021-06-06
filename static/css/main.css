@@ -5,3 +5,22 @@
 .NavHeader__logo{
     height: 25px;
 }
+
+/* Login Form*/
+.LoginForm__container{
+    display: flex;
+    width: 440px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.3);
+}
+.LoginForm__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LoginForm__img img{
+    width: 140px;
+}
